@@ -1,0 +1,567 @@
+Word_NW,Translation,CDS_freq,AoA,Lex_cat
+au,ouch,7,16,sound effects
+bææ,baa baa,5,15,sound effects
+brrr (bil-lyd),vroom,20,13,sound effects
+gakk gakk,quack quack,3,17,sound effects
+kykeliky,cock-a-doodle-doo,2,22,sound effects
+mjau,meow,7,17,sound effects
+møø,moo,7,15,sound effects
+nam - nam,yum yum,19,13,sound effects
+oi (uttrykk for overraskelse),oh,437,20,sound effects
+tøff-tøff,choo choo,3,23,sound effects
+voff voff,woof woof,52,15,sound effects
+ei and,duck,4,24,common nouns
+en ape,monkey,2,22,common nouns
+en bjørn,bear,9,23,common nouns
+et dyr,animal,29,25,common nouns
+et ekorn,squirrel,7,25,common nouns
+en elefant,elephant,8,22,common nouns
+en elg,moose,5,28,common nouns
+et esel,donkey,9,32,common nouns
+en fisk,fish,11,20,common nouns
+ei flue,fly,3,23,common nouns
+en frosk,frog,4,24,common nouns
+en fugl,bird,40,22,common nouns
+ei gås,goose,2,36,common nouns
+en gris,pig,45,20,common nouns
+en hest,horse,39,19,common nouns
+ei høne,hen,5,24,common nouns
+en hund,dog,35,20,common nouns
+en kanin,bunny,9,22,common nouns
+en katt,cat,24,19,common nouns
+en krokodille,crocodile,15,24,common nouns
+ei ku,cow,10,20,common nouns
+en kylling,chicken,6,25,common nouns
+et lam,lamb,7,25,common nouns
+en løve,lion,9,22,common nouns
+ei mus,mouse,20,21,common nouns
+en pingvin,penguin,2,27,common nouns
+et reinsdyr,reindeer,3,36,common nouns
+en sau,sheep,15,22,common nouns
+en sjiraff,giraffe,3,23,common nouns
+ei skilpadde,turtle,4,26,common nouns
+en sommerfugl,butterfly,3,25,common nouns
+en tiger,tiger,11,24,common nouns
+ei ugle,owl,2,25,common nouns
+en ulv,wolf,27,28,common nouns
+en valp,puppy,2,34,common nouns
+et akebrett,sled,3,25,common nouns
+en bil,car,96,18,common nouns
+en brannbil,firetruck,3,24,common nouns
+en båt,boat,31,20,common nouns
+en buss,bus,32,20,common nouns
+et fly,airplane,42,19,common nouns
+et helikopter,helicopter,2,24,common nouns
+en lastebil,truck,4,23,common nouns
+en motorsykkel,motorcycle,16,25,common nouns
+en sykkel,bicycle,18,22,common nouns
+et tog,train,18,20,common nouns
+en traktor,tractor,24,20,common nouns
+en trehjulssykkel,tricycle,7,31,common nouns
+en ball,ball,74,16,common nouns
+en ballong,balloon,7,20,common nouns
+en blyant,pencil,5,26,common nouns
+ei bok,book,167,18,common nouns
+klosser,blocks,21,23,common nouns
+ei dukke,doll,36,20,common nouns
+lego,lego,3,25,common nouns
+eventyr,fairytale,2,28,common nouns
+fargeblyant,crayon,2,31,common nouns
+en presang,present,7,25,common nouns
+en leke,toy,69,22,common nouns
+lim,glue,6,28,common nouns
+en penn,pen,3,26,common nouns
+et puslespill,puzzle,7,24,common nouns
+ei såpeboble,soap bubbles,18,25,common nouns
+ei brødskive,slice (of bread),2,21,common nouns
+en appelsin,orange,5,21,common nouns
+en banan,banana,17,17,common nouns
+et brød,bread,11,20,common nouns
+brus,soda/pop,2,23,common nouns
+dessert,dessert,3,28,common nouns
+et egg,egg,16,20,common nouns
+et eple,apple,27,18,common nouns
+fisk,fish,11,20,common nouns
+godteri,candy,3,25,common nouns
+grøt,porridge,8,22,common nouns
+ei gulrot,carrot,4,22,common nouns
+is,ice cream,11,17,common nouns
+et jordbær,strawberry,3,23,common nouns
+juice,juice,3,20,common nouns
+kaffe,coffee,12,22,common nouns
+kake,cake,17,19,common nouns
+en kjeks,cracker,17,19,common nouns
+kjøtt,meat,3,25,common nouns
+kylling,chicken,6,25,common nouns
+mat,food,28,19,common nouns
+melk,milk,25,19,common nouns
+en ost,cheese,16,20,common nouns
+ei pannekake,pancake,2,24,common nouns
+pasta,pasta,4,25,common nouns
+en pizza,pizza,4,22,common nouns
+ei pølse,sausages,4,20,common nouns
+saft,fruit juice,2,22,common nouns
+salami,salami,5,28,common nouns
+salt,salt,2,28,common nouns
+sjokolade,chocolate,7,23,common nouns
+smør,butter,6,23,common nouns
+sukkertøy,candy,3,36,common nouns
+syltetøy,jam,5,23,common nouns
+te,tea,10,26,common nouns
+en tyggegummi,gum,4,27,common nouns
+vann,water,61,19,common nouns
+yoghurt,yogurt,3,20,common nouns
+ei bleie,diaper,21,18,common nouns
+ei bukse,pants,16,20,common nouns
+en dress,(thermal) suit,3,22,common nouns
+en genser,sweater,14,22,common nouns
+ei jakke,jacket,5,20,common nouns
+en joggesko,sneakers,4,27,common nouns
+en kjole,dress,16,25,common nouns
+en knapp,buttons,3,23,common nouns
+ei lue,cap,10,19,common nouns
+regntøy,rainwear,2,26,common nouns
+et skjerf,scarf,6,26,common nouns
+ei skjorte,shirt,6,28,common nouns
+en sko,shoes,23,18,common nouns
+smekke,bib,2,22,common nouns
+en smokk,pacifier,6,19,common nouns
+en sokk,socks,7,20,common nouns
+en støvel,boots,2,22,common nouns
+ei strømpebukse,tights,3,23,common nouns
+en tøffel,slippers,16,25,common nouns
+en vott,mittens,2,22,common nouns
+et ansikt,face,4,25,common nouns
+en arm,arm,9,22,common nouns
+et bein (kroppsdel),leg,45,23,common nouns
+en finger,finger,5,22,common nouns
+en fot,foot,3,21,common nouns
+hake,chin,7,25,common nouns
+ei hånd,hand,58,22,common nouns
+hår,hair,33,20,common nouns
+et hode,head,45,20,common nouns
+et kinn,cheek,7,24,common nouns
+et kne,knee,3,25,common nouns
+en mage,tummy,13,20,common nouns
+en munn,mouth,37,20,common nouns
+en navle,belly button,24,23,common nouns
+ei nese,nose,20,19,common nouns
+et øre (kroppsdel),ear,13,20,common nouns
+et øye,eye,31,19,common nouns
+pupp,tit,2,20,common nouns
+ei rumpe,buttocks/bottom,9,22,common nouns
+en rygg,back,11,25,common nouns
+ei skulder,shoulder,2,31,common nouns
+ei tann,teeth,14,22,common nouns
+ei tunge,tongue,2,25,common nouns
+ei tå,toe,18,22,common nouns
+et bilde,picture,57,21,common nouns
+boks,box,16,25,common nouns
+en børste,brush,2,23,common nouns
+ei bøtte,bucket,18,22,common nouns
+et brett,tray,4,33,common nouns
+briller,glasses,8,22,common nouns
+dopapir,toilet paper,5,25,common nouns
+dyne,duvet,3,22,common nouns
+eske,box,8,26,common nouns
+ei flaske,bottle,9,22,common nouns
+drikke,drink,27,19,common nouns
+en gaffel,fork,4,22,common nouns
+et glass,glass,2,22,common nouns
+hammer,hammer,6,25,common nouns
+et håndkle,towel,13,25,common nouns
+en kam,comb,4,28,common nouns
+et kamera,camera,5,27,common nouns
+kasse,box,8,26,common nouns
+ei klokke (bjelle),clock,21,22,common nouns
+en kopp,cup,21,20,common nouns
+en kost (å feie),broom,4,25,common nouns
+ei lampe,lamp,3,23,common nouns
+et lys,light,13,18,common nouns
+en nøkkel,keys,6,23,common nouns
+papir,paper,13,23,common nouns
+penger,money,6,24,common nouns
+en plante,plant,2,32,common nouns
+ei pute,pillow,3,22,common nouns
+ei saks,scissors,3,25,common nouns
+såpe,soap,5,22,common nouns
+en sekk,bag,3,25,common nouns
+en serviett,napkin,2,28,common nouns
+ei skje,spoon,36,20,common nouns
+søppel,rubbish,6,23,common nouns
+en støvsuger,vacuum cleaner,8,25,common nouns
+en tallerken,plate,4,25,common nouns
+en tannbørste,toothbrush,8,23,common nouns
+en telefon,telephone,20,22,common nouns
+et teppe,blanket/carpet,3,23,common nouns
+ei veske,bag,13,24,common nouns
+bad,bathroom,9,20,common nouns
+et badekar,bathtub,2,25,common nouns
+et bord,table,43,22,common nouns
+en do,toilet,32,20,common nouns
+ei dør,door,26,22,common nouns
+dusj,shower,3,20,common nouns
+en garasje,garage,7,26,common nouns
+en kjeller,basement,6,26,common nouns
+et kjøkken,kitchen,17,24,common nouns
+et kjøleskap,refrigerator,14,25,common nouns
+en komfyr,stove,4,32,common nouns
+en ovn,oven,5,25,common nouns
+potte,potty,3,25,common nouns
+et rom,room,16,25,common nouns
+ei seng,bed,47,20,common nouns
+et skap,closet,19,25,common nouns
+en skuff,drawer,6,26,common nouns
+en sofa,couch,5,23,common nouns
+en stol,chair,40,20,common nouns
+stue,living room,8,24,common nouns
+en TV,TV,9,22,common nouns
+vask,sink,6,25,common nouns
+en vaskemaskin,washing machine,2,26,common nouns
+et vindu,window,31,25,common nouns
+badebasseng,pool,2,26,places to go
+en blomst,flower,30,20,places to go
+gress,grass,2,23,places to go
+en gressklipper,lawn mower,6,28,places to go
+ei huske,swing,128,23,places to go
+en kjelke,sled,6,30,places to go
+en måne,moon,16,22,places to go
+en pinne,stick,2,25,places to go
+ei sandkasse,sandbox,5,25,places to go
+ei sklie,slide,2,23,places to go
+en sky,clouds,3,26,places to go
+snø,snow,4,21,places to go
+en snømann,snowman,2,25,places to go
+ei sol,sun,14,22,places to go
+en spade,spade,22,22,places to go
+en stein,rocks,5,23,places to go
+en stige,ladder,3,28,places to go
+ei stjerne,stars,12,24,places to go
+et tak,roof,11,25,places to go
+et tre,tree,47,23,places to go
+vann,water,61,20,places to go
+en vei,street,36,24,places to go
+en bondegård,farm,5,31,places to go
+en butikk,store,3,23,places to go
+en by,downtown,10,29,places to go
+en dyrehage,zoo,2,32,places to go
+en fest,party,2,30,places to go
+en hage,yard,6,26,places to go
+et hjem,home,7,23,places to go
+et hus,house,32,20,places to go
+en jobb,work,4,23,places to go
+en lekeplass,playground,3,25,places to go
+en park,park,19,34,places to go
+en skole,school,28,26,places to go
+ei strand,beach,2,29,places to go
+ut,outside,181,20,places to go
+en baby,baby,33,17,people
+et barn,child,21,26,people
+barnets navn,childs own name,317,20,people
+ei bestemor,grandmother,2,23,people
+en bonde,farmer,2,35,people
+en brannmann,fireman,2,26,people
+ei dame,lady,22,22,people
+en doktor,doctor,5,26,people
+folk,people,2,32,people
+en gutt,boy,37,22,people
+ei jente,girl,30,23,people
+en klovn,clown,7,30,people
+en mamma,mommy,171,12,people
+en mann,man,18,21,people
+et menneske,people,9,32,people
+en onkel,uncle,6,22,people
+en pappa,daddy,118,13,people
+politi,police,7,26,people
+et postbud,mailman,4,33,people
+ei tante,aunt,6,20,people
+en venn,friend,8,26,people
+å bade,bathe,16,17,games & routines
+hadet,bye,6,14,games & routines
+hallo,hello,61,20,games & routines
+handle,shop,2,26,games & routines
+hei,hi,74,13,games & routines
+ikke,not,893,20,games & routines
+ja,yes,3291,15,games & routines
+jo,yes,120,23,games & routines
+Borte! (lek hvor ansikt gjemmes og plutselig vises),peek-a-boo,27,15,games & routines
+en middag,dinner,6,23,games & routines
+nei,no,470,15,games & routines
+å ringe,call (on phone),23,22,games & routines
+takk,thank you,106,13,games & routines
+vent,wait,10,25,games & routines
+vil,wanna/want to,138,23,games & routines
+å bite,bite,7,24,action words
+å blåse,blow,16,22,action words
+å bråke,brawl,22,26,action words
+å bygge,build,19,23,action words
+å bære,carry,10,23,action words
+å danse,dance,20,22,action words
+å dele,share,7,25,action words
+å drikke,drink,27,20,action words
+å dytte,push,6,25,action words
+å fange,catch,13,28,action words
+å falle,fall,28,25,action words
+å finne,find,136,24,action words
+å forte seg,hurry,7,26,action words
+å få,get,287,22,action words
+å gi,give,19,26,action words
+å gjemme,hide,15,26,action words
+å gråte,cry,7,24,action words
+å gå,walk,312,22,action words
+å ha,have,1174,23,action words
+å helle,pour,5,28,action words
+å hente,get,42,23,action words
+å hjelpe,help,34,22,action words
+å holde,hold,43,25,action words
+å hoppe,jump,24,20,action words
+å høre,hear,56,25,action words
+å kaste,throw,29,23,action words
+å kile,tickle,3,25,action words
+å kjøpe,buy,13,25,action words
+å kjøre,drive,89,23,action words
+å klappe,clap,3,23,action words
+å klatre,climb,15,25,action words
+å klemme,hug,4,25,action words
+å kysse,kiss,2,25,action words
+å putte,put,38,26,action words
+å legge,put,63,23,action words
+å leke,toy,69,22,action words
+å lese,read,77,21,action words
+å like,like,28,26,action words
+å lukke,close,20,25,action words
+å løpe,run,49,23,action words
+å male,paint,41,25,action words
+å mate,feed,2,28,action words
+å miste,loose,13,25,action words
+å reparere,repair,8,28,action words
+å passe,fit,38,26,action words
+å prøve,try,67,26,action words
+puste,breathe,7,30,action words
+å ri,ride,8,29,action words
+riste,shake,2,29,action words
+å rydde,tidy,9,23,action words
+å røre,touch,4,26,action words
+å se,look,933,18,action words
+å sette,put,79,26,action words
+å si,say,387,26,action words
+å sitte,sit,193,20,action words
+å skjære,cut,5,26,action words
+å skli,slip,5,24,action words
+å skrive,write,3,26,action words
+å skynde seg,hurry,7,28,action words
+å slikke,lick,2,28,action words
+å slutte,finish,3,25,action words
+å slå,hit,30,24,action words
+å smake,taste,9,23,action words
+å smile,smile,2,26,action words
+å snakke,talk,29,25,action words
+å sove,sleep,51,21,action words
+å sparke,kick,9,25,action words
+å spille,play,41,25,action words
+å spise,eat,115,20,action words
+å stikke,sting,6,30,action words
+å stoppe,stop,6,26,action words
+å stå,stand,145,25,action words
+å synge,sing,32,23,action words
+å svømme,swim,4,26,action words
+å søle,spill,2,25,action words
+å ta,take,296,25,action words
+å tegne,draw,114,22,action words
+å tenke,think,42,30,action words
+å treffe,meet,2,31,action words
+å dra,go,5,26,action words
+å tørke,dry,16,23,action words
+å vaske,wash,10,22,action words
+å vente,wait,8,25,action words
+å vise,show,63,26,action words
+å velte,overturn,16,30,action words
+å våkne,wake,2,25,action words
+å ønske,wish,2,30,action words
+å åpne,open,16,23,action words
+blå,blue,32,25,descriptive words
+bløt,soft/wet,2,32,descriptive words
+borte,away,56,20,descriptive words
+bra,good,64,25,descriptive words
+bråkete,noisy,2,28,descriptive words
+brun,brown,4,29,descriptive words
+dårlig,bad,3,30,descriptive words
+ekkel,yucky,4,27,descriptive words
+fin,fine,241,23,descriptive words
+forsiktig,careful,10,26,descriptive words
+først,first,37,26,descriptive words
+fort,fast,25,25,descriptive words
+full,full,8,28,descriptive words
+gammel,old,18,27,descriptive words
+glad,happy,14,26,descriptive words
+god,good,182,25,descriptive words
+grønn,green,18,25,descriptive words
+gul,yellow,23,25,descriptive words
+hard,hard,13,26,descriptive words
+høy,high,29,29,descriptive words
+hvit,white,9,27,descriptive words
+kald,cold,13,23,descriptive words
+lang,long,35,28,descriptive words
+liten,small,144,25,descriptive words
+mørk,dark,3,24,descriptive words
+ny,new,21,26,descriptive words
+ødelagt,broken,10,24,descriptive words
+pen,pretty,15,32,descriptive words
+rar,nice,105,30,descriptive words
+redd,scared,11,26,descriptive words
+ren,clean,3,26,descriptive words
+rød,red,44,25,descriptive words
+sen,late,2,32,descriptive words
+sint,mad,24,25,descriptive words
+sist,last,15,32,descriptive words
+skitten,dirty,4,25,descriptive words
+slem,bad,8,28,descriptive words
+snill,kind,22,24,descriptive words
+søt,cute,5,28,descriptive words
+stakkars,poor,2,26,descriptive words
+stille,quiet,26,26,descriptive words
+stor,big,62,23,descriptive words
+sulten,hungry,7,25,descriptive words
+sur,grumpy,4,30,descriptive words
+svart,black,8,27,descriptive words
+tom,empty,5,23,descriptive words
+tørr,dry,3,28,descriptive words
+tørst,thirsty,5,22,descriptive words
+trøtt,tired,4,24,descriptive words
+tung,heavy,10,26,descriptive words
+våken,awake,5,25,descriptive words
+varm,hot,22,23,descriptive words
+våt,wet,9,23,descriptive words
+vond,painful,19,23,descriptive words
+en dag,day,62,26,time words
+etter,after,23,31,time words
+etterpå,afterwords,29,25,time words
+før,before,41,30,time words
+i dag,today,2,27,time words
+i går,yesterday,7,30,time words
+i kveld,tonight,2,32,time words
+i morgen,tomorrow,7,28,time words
+en kveld,evening,2,28,time words
+morgen,morning,2,28,time words
+nå,now,461,25,time words
+ei natt,night,4,24,time words
+de,they,481,32,closed-class items
+deg,you (sg),8,28,closed-class items
+dem,them,39,36,closed-class items
+den,it/that,1619,22,closed-class items
+denne,this,31,25,closed-class items
+dere,you (pl),53,31,closed-class items
+deres,your(s) (pl)/their(s),3,34,closed-class items
+det,it/that,4917,26,closed-class items
+dette,this,100,30,closed-class items
+din,your(s) (sg),234,24,closed-class items
+disse,these,17,33,closed-class items
+du,you (sg),3448,25,closed-class items
+han,he,855,26,closed-class items
+hans,his,10,32,closed-class items
+henne,her,12,35,closed-class items
+hennes,her(s),3,34,closed-class items
+hun,she,238,28,closed-class items
+hverandre,each other,15,36,closed-class items
+jeg,I,906,24,closed-class items
+meg,me,2,25,closed-class items
+min,my/mine,45,19,closed-class items
+oss,us,26,30,closed-class items
+seg,himself/herself,95,32,closed-class items
+sin,his/her,123,25,closed-class items
+vår,our(s),14,30,closed-class items
+vi,we,1111,28,closed-class items
+hva,what,1533,26,closed-class items
+hvem,who,131,28,closed-class items
+hvilken,which,70,35,closed-class items
+hvor,where,268,26,closed-class items
+hvordan,how,33,35,closed-class items
+hvorfor,why,40,30,closed-class items
+når,when,123,32,closed-class items
+av,by,208,26,closed-class items
+bak,behind,25,26,closed-class items
+bort,away,69,26,closed-class items
+borte,away,56,20,closed-class items
+der,there,1206,19,closed-class items
+for,for,521,33,closed-class items
+foran,in front of,11,29,closed-class items
+fra,from,29,30,closed-class items
+frem,forward,7,33,closed-class items
+gjennom,through,4,28,closed-class items
+her,here,423,23,closed-class items
+hit,here (hither),14,26,closed-class items
+hjem,home,7,23,closed-class items
+hjemme,(at) home,6,24,closed-class items
+hos,at,18,29,closed-class items
+i,at,548,25,closed-class items
+inn,inside,61,23,closed-class items
+inne,inside,21,25,closed-class items
+inni,inside,42,26,closed-class items
+med,with,329,26,closed-class items
+mot,towards/against,5,35,closed-class items
+ned,down,85,23,closed-class items
+nede,down(stairs),10,26,closed-class items
+nedi,down in,9,29,closed-class items
+om,about,137,34,closed-class items
+opp,up,139,21,closed-class items
+oppå,on top of,58,26,closed-class items
+oppe,up(stairs),8,25,closed-class items
+oppi,up in,174,26,closed-class items
+over,over,17,29,closed-class items
+på,on,1064,25,closed-class items
+til,to,376,26,closed-class items
+tilbake,back,30,30,closed-class items
+under,under,34,26,closed-class items
+ut,outside,181,20,closed-class items
+ute,outside,62,23,closed-class items
+utenfor,outside,7,35,closed-class items
+utenpå,outside,5,35,closed-class items
+vekk,away,10,25,closed-class items
+alle,everyone,15,25,closed-class items
+alt,everything,29,28,closed-class items
+andre,other(s),13,32,closed-class items
+den,it/that,1619,20,closed-class items
+det,it/that,4917,26,closed-class items
+en,a,1019,26,closed-class items
+en annen,another,28,32,closed-class items
+et,a,3,31,closed-class items
+hver,each,6,34,closed-class items
+ikke,not,893,22,closed-class items
+ingen,no one,15,26,closed-class items
+ingenting,nothing,7,26,closed-class items
+litt,a little,405,26,closed-class items
+mange,many,86,25,closed-class items
+mer,more,2,19,closed-class items
+mye,a lot,166,26,closed-class items
+noe,something,349,32,closed-class items
+noen,someone,277,32,closed-class items
+også,too,292,28,closed-class items
+samme,same,21,29,closed-class items
+å bli,be(come),178,28,closed-class items
+er,is,15,26,closed-class items
+få,get,287,24,closed-class items
+gjør,does,320,28,closed-class items
+gjorde,did,52,31,closed-class items
+å gjøre,do,488,27,closed-class items
+å ha,have,1174,23,closed-class items
+hadde,had,2,30,closed-class items
+har,has,10,26,closed-class items
+kan,can,3,26,closed-class items
+å la,let,7,34,closed-class items
+må,have to,5,26,closed-class items
+å måtte,had to,242,34,closed-class items
+skal,will,3,26,closed-class items
+å skulle,would,1152,34,closed-class items
+å være,be,4419,29,closed-class items
+var,was,6,32,closed-class items
+vil,wanna/want to,4,25,closed-class items
+å ville,would,161,32,closed-class items
+at,that,215,32,closed-class items
+eller,or,210,31,closed-class items
+for,for,521,34,closed-class items
+fordi,because,12,34,closed-class items
+hvis,if,86,35,closed-class items
+men,but,444,33,closed-class items
+og,and,1074,25,closed-class items
+så,then,900,31,closed-class items
+som,that,402,32,closed-class items
