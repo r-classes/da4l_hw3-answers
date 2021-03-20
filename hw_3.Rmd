@@ -34,7 +34,7 @@ e_f1$estimate %>%
             ae_f1$estimate,
             ae_f2$estimate) %>% 
   mutate(formant = c("f1", "f2", "f1", "f2"),
-         vowel = c("e", "e", "æ", "æ")) %>% 
+         vowel = c("e", "e", "ae", "ae")) %>% 
   rename(mean_prior = mean,
          sd_prior = sd) ->
   priors
