@@ -1,6 +1,6 @@
 ---
 title: "hw_3"
-author: "Имя Отчество Фамилия"
+author: "Ответ Ответович Ответов"
 output: html_document
 editor_options: 
   chunk_output_type: console
@@ -22,12 +22,11 @@ library(lmerTest)
 ```{r}
 br_vowels <- read_csv("vowel_data.csv")
 
-...
 
-e_f1 <- fitdist(...)
-e_f2 <- ...
-ae_f1 <- ...
-ae_f2 <- ...
+e_f1 <- fitdist(filter(br_vowels, vowel == 'e')$F1, distr = 'norm', method = 'mle')
+e_f2 <- fitdist(filter(br_vowels, vowel == 'e')$F2, distr = 'norm', method = 'mle')
+ae_f1 <- fitdist(filter(br_vowels, vowel == 'ae')$F1, distr = 'norm', method = 'mle')
+ae_f2 <- fitdist(filter(br_vowels, vowel == 'ae')$F2, distr = 'norm', method = 'mle')
 
 e_f1$estimate %>% 
   bind_rows(e_f2$estimate,
@@ -41,26 +40,33 @@ e_f1$estimate %>%
 
 br_vowels %>% 
   group_by(subject, vowel) %>% 
-  summarise(...) %>% 
+  summarise(mean_f1 = mean(F1),
+            mean_f2 = mean(F2),
+            sd_f1 = sd(F1),
+            sd_f2 = sd(F2)) %>% 
   pivot_longer(names_to = "type", values_to = "values", mean_f1:sd_f2) %>% 
   separate(type, into = c("type", "formant")) %>% 
   pivot_wider(values_from = values, names_from = "type") %>% 
   left_join(priors) %>% 
   rowwise() %>% 
-  mutate(...) %>% 
-  ggplot(aes(y = subject, 
-             x = cred_int_mean, 
-             xmin = cred_int_l_80, 
-             xmax = cred_int_h_80, 
-             color = vowel))+
-  geom_pointrange()+
+  mutate(sd_post = 1/sqrt(1/sd_prior^2 + 1/sd^2),
+         mean_post = weighted.mean(c(mean_prior, mean), 
+                                   c(1/sd_prior^2, 1/sd^2)),
+         cred_int_l_80 = qnorm(0.1, mean_post, sd_post),
+         cred_int_h_80 = qnorm(0.9, mean_post, sd_post),
+         cred_int_mean = cred_int_h_80-(cred_int_h_80-cred_int_l_80)/2) %>% 
+  ggplot(aes(y = subject, x = cred_int_mean, 
+             xmin = cred_int_l_80, xmax = cred_int_h_80, color = vowel))+
+  geom_pointrange(alpha = 0.7, shape = 20)+ # это не обязательные параметры
   facet_wrap(~formant, scales = "free")+
-  labs(...)
+  labs(x = "formant values",
+       title = "80% credible intervals for each speaker",
+       caption  = "data from  [Sönning, Lukas 2021]")
 ```
 
 ![](english_vowels.png)
 
-Ответ: ...
+Ответ: NS05
 
 ## task 3.2 (вес задания: 3)
 
@@ -74,9 +80,27 @@ br_vowels %>%
 
 Постройте и визуализируйте лучшую регрессию, которая предсказывает возраст усвоения слова в зависимости от частотности в речи, адресованной детям. Помните про необходимость преобразования переменных, чтобы связь была линейной. Сравните полученный результат с результатом работы функции `geom_smooth()`, которая генерирует отдельную независимую регрессию для каждой из групп.
 
-```{r}
+```{r dpi=600}
 nld <- read_csv("norwegian_lexical_development.csv")
-...
+
+
+fit1 <- lmer(AoA~log(CDS_freq)+(1|Lex_cat), data = nld)
+fit2 <- lmer(AoA~log(CDS_freq)+(1+log(CDS_freq)|Lex_cat), data = nld)
+
+anova(fit1, fit2) # fit2 is better
+
+nld %>% 
+  mutate(predicted = predict(fit2)) %>% 
+  ggplot(aes(CDS_freq, AoA))+
+  geom_point()+
+  geom_line(aes(y = predicted), color = "red", alpha = 0.7)+
+  scale_x_log10()+
+  geom_smooth(method = "lm", se = FALSE, alpha = 0.6, size = 0.5)+
+  facet_wrap(~Lex_cat, scales = "free")+
+  labs(x = "Frequency in child-directed speech (log 10)",
+       y = "Age of acquisition (in months)",
+       title = "Regression model in red, geom_smooth in blue",
+       caption = "data from [Hansen 2017]")
 ```
 
 ![](norwegian_lexical_development.png)
@@ -88,16 +112,16 @@ nld <- read_csv("norwegian_lexical_development.csv")
 ![](residuals.png)
 
 ### График 1
-...
+Явная нелинейная зависимость.
 
 ### График 2
-...
+Остатки распределены гетероскедастично: с увеличением значения дисперсия увличивается.
 
 ### График 3
-...
+Выделяются две группы, на линии нуля остатков вообще нет.
 
 ### График 4
-...
+Остатки образуют четкий паттерн.
 
 ## task 3.4 (вес задания: 1)
 
